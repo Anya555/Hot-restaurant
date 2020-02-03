@@ -6,12 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+
 
     <div class="jumbotron">
         <div class="row">
@@ -22,8 +26,8 @@
         <hr class="my-4">
         <div class="row">
             <div class="col 12 offset-4">
-                <a class="btn btn-primary btn-lg" href="view.html" role="button">View tables</a>
-                <a class="btn btn-primary btn-lg" href="home.html" role="button">Home page</a>
+                <a class="btn btn-primary btn-lg" href="/view" role="button">View tables</a>
+                <a class="btn btn-primary btn-lg" href="/home" role="button">Home page</a>
             </div>
         </div>
     </div>
@@ -35,21 +39,21 @@
             <div class="col 12">
         <div class="form-group"  action="http://localhost:8080/" method="POST">
           <label for="exampleInputEmail1">Name</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <input type="email" class="form-control" id="name" aria-describedby="emailHelp">
         </div>
         <div class="form-group">
           <label for="exampleInputPassword1">Phone number</label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
+          <input type="password" class="form-control" id="number">
         </div>
         <div class="form-group">
             <label for="exampleInputPassword1">Email</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
+            <input type="password" class="form-control" id="email">
           </div>
           <div class="form-group">
             <label for="exampleInputPassword1">Unique Id</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
+            <input type="password" class="form-control" id="id">
           </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary submit">Submit</button>
       </form>
     </div>
     </div>
@@ -59,11 +63,18 @@
 
 
 
+<script>
+        let name = $("#name");
+        let number = $("#number");
+        let email = $("email");
+        let id = $("#id");
 
+        $(".submit").on("click", function(){
+            
+        });
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-    crossorigin="anonymous"></script>
+</script>
+
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
     integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
     crossorigin="anonymous"></script>

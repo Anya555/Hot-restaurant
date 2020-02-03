@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Anya555/Hot-restaurant/issues"
   },
-  "homepage": "https://github.com/Anya555/Hot-restaurant#readme"
+  "homepage": "https://github.com/Anya555/Hot-restaurant#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
