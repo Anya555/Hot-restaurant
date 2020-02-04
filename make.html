@@ -20,14 +20,20 @@
     <div class="jumbotron">
         <div class="row">
             <div class="col 12 offset-4">
-                <h1 class="display-4">Hot restaurant</h1>
+                <h1 class="display-4"><span class="fa fa-fire"></span>Hot restaurant</h1>
             </div>
         </div>
         <hr class="my-4">
         <div class="row">
             <div class="col 12 offset-4">
-                <a class="btn btn-primary btn-lg" href="/view" role="button">View tables</a>
-                <a class="btn btn-primary btn-lg" href="/home" role="button">Home page</a>
+                <h1>Make your reservation</h1>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col 12 offset-5">
+                <a class="btn btn-primary btn-lg" href="/view" role="button"><span class="fa fa-list-alt"></span>View tables</a>
+                <a class="btn btn-primary btn-lg" href="/home" role="button"> <span class="fa fa-home"></span></a>
             </div>
         </div>
     </div>
@@ -37,6 +43,11 @@
         <div class="container">
         <div class="row">
             <div class="col 12">
+                <div class="card">
+                    <div class="card-header">
+                      Table Reservation
+                    </div>
+                    <div class="card-body">
         <div class="form-group"  action="http://localhost:8080/" method="POST">
           <label for="exampleInputEmail1">Name</label>
           <input type="email" class="form-control" id="name" aria-describedby="emailHelp">
@@ -55,6 +66,7 @@
           </div>
         <button type="submit" class="btn btn-primary submit">Submit</button>
       </form>
+    </div>
     </div>
     </div>
     </div>

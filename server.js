@@ -30,7 +30,19 @@ const tables = [
         name: "John Doe",
         email: "johndoe@gamil.com",
         phone: "555-555-1111"
-    }
+    },
+    {
+        id: 2,
+        name: "Anya Panas",
+        email: "Anya@gamil.com",
+        phone: "347-555-1111"
+    },
+    {
+        id: 3,
+        name: "Gary Almes",
+        email: "johndoe@gamil.com",
+        phone: "800-555-1111"
+    },
 ]
 
 // Routes
